@@ -21,7 +21,7 @@ const Update = () => {
         .then(res => res.json())
         .then(data =>{
             console.log(data);
-            if(data.modifiedCound > 0){
+            if(data.modifiedCount > 0){
                 alert('user updated successfully')
             }
         })
